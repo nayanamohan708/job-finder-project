@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🔍 Job Finder</h1>
+
+    <a href="login.html">
+        <button>Login</button>
+    </a>
+
+    <a href="register.html">
+        <button>Register</button>
+        <a href="add-job.html">
+    <button>Add Job</button>
+    <button onclick="logout()">Logout</button>
+</a>
+    </a>
+
+    <br><br>
+
+    <input type="text" id="searchInput" placeholder="Search jobs">
+
+    <input type="text" id="locationInput" placeholder="Location">
+
+    <button onclick="searchJobs()">Search</button>
+
+    <div id="jobResults"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
